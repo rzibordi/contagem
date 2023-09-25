@@ -1,5 +1,24 @@
-/* Estilos festivos */
+/* Estilos festivos e tema brasileiro */
+body {
+    font-family: 'Comic Sans MS', cursive; /* Fonte festiva (pode ser alterada) */
+    background-color: #009900; /* Cor de fundo verde representando o Brasil */
+    color: yellow; /* Cor do texto */
+    text-align: center; /* Centralizar o conteúdo */
+    padding: 20px;
+}
+
 .festive-text {
-    font-family: 'Comic Sans MS', cursive; /* Altere a fonte para uma fonte festiva de sua escolha */
-    color: red; /* Altere a cor do texto para uma cor festiva de sua escolha */
+    font-size: 24px; /* Tamanho do texto */
+}
+
+#countdown-text {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#daily-image {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid yellow; /* Borda amarela para a imagem */
+    margin-top: 20px;
 }
